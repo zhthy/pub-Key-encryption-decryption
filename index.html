@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>pub密钥 加密/解密</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>pub密钥 加密/解密</h2>
+        <input type="file" id="fileInput" accept=".pub"><br><br>
+        <textarea id="keyContent" rows="10" cols="50" readonly placeholder="pub密钥内容"></textarea><br><br>
+        <input type="text" id="dataInput" placeholder="输入要加密/解密的数据" width="355.33px" height="168.67px" overflow=auto><br><br>
+        <button onclick="encryptData()">加密</button>
+        <button onclick="decryptData()">解密</button><br><br>
+        <textarea id="result" rows="10" cols="50" readonly placeholder="处理后的数据"></textarea>
+        <script src="https://blog.hgtrojan.com/usr/uploads/2024/04/1954014562.js"></script>
+    </body>
+</html>
